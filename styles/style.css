@@ -1,0 +1,134 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brazil{
+    display: flex;
+    background-color: #161616;
+    color: white;
+    width: 100%;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.desc-1{
+    margin: 111px 0 111px 106px;
+    width: 28%;
+}
+.desc-h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.desc-p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.first-btn{
+    font-weight: 400;
+    font-size: 17px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+.desc-2{
+    width: 45%;
+    margin: 2% 0 0 6%;
+}
+.desc-2 img{
+    width: 100%;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
+.match-overview{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.match-desc{
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+}
+.link{
+    margin: 8px;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+#linkex{
+    background-color: #DD0000;
+}
+#linkex a{
+    color: white;
+}
+.link a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: black;
+}
+.match-summary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.thumbnail{
+    
+}
+.thumbnail img{
+    width: 200px;
+    height: 125px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 1%;
+}
+.thumbnail-btn{
+    margin-left: 1%;
+}
+.icon{
+    margin-right: 20px;
+}
+.fa-clock, .fa-message{
+    color: rgb(187, 176, 176);
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+.footer-desc{
+    margin-top: 4%;
+}
+.footer-ul{
+    display: flex;
+    justify-content: center;
+}
+footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+}
+.footer-ul li{
+    list-style: none;
+    margin-right: 4%;
+    color: #B9B9B9;
+}
+/* Social Media Link  */
+.social-media a{
+    text-decoration: none;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+.fa-instagram, .fa-facebook, .fa-twitter{
+    color: white;
+}
